@@ -1,4 +1,7 @@
 # Apple-Eye
+The About Us page
+
+![alt text](D:\All IT Projects\Apple-Eye\Thumbnail YT.jpg ) 
 A web application namely ApplEYE (apply), which is a project for IMPACT Hackaton 2019
 
 APPLEYE WEB 
