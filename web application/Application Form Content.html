@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Cong.Armelito Alvarez</title>
+</head>
+<body bgcolor="cornsilk" text"black">
+
+<a href="Application Form Content.html" target="viewer">Application Form</a></br>
+
+  // get response
+      $graphObject = $response->getGraphObject();
+      $fbid = $graphObject->getProperty('id');           // To Get Facebook ID
+      $fbfullname = $graphObject->getProperty('name');   // To Get Facebook full name
+      $femail = $graphObject->getProperty('email');      // To Get Facebook email ID
+      
+      /* ---- Session Variables -----*/
+      $_SESSION['FBID'] = $fbid;
+      $_SESSION['FULLNAME'] = $fbfullname;
+      $_SESSION['EMAIL'] =  $femail;
+      
+      /* ---- header location after session ----*/
+      header("Location: index.php");
+   }else {
+      $loginUrl = $helper->getLoginUrl();
+      header("Location: ".$loginUrl);
+   }
+
+
+</font>
+</body>
+</html>
