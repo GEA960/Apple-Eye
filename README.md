@@ -1,7 +1,7 @@
 # Apple-Eye
 The About Us page
 
-[Thumbnail YT](https://user-images.githubusercontent.com/75560222/138025756-e636f107-2e97-4152-90b2-5bd039587ef9.JPG)
+![](webapplication\images\Thumbnail%20YT.jpg
 
 A web application namely ApplEYE (apply), which is a project for IMPACT Hackaton 2019
 
